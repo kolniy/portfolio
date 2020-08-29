@@ -40,7 +40,7 @@ const HomePage = props => {
                         target="_blank"
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
+                          <i className="ni ni-circle-08" />
                         </span>
                         <span className="btn-inner--text">Find me on LinkInd</span>
                       </Button>

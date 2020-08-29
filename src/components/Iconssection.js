@@ -84,15 +84,15 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/html.png")} alt="" id="htmltooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="htmltooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        HTML - Define the structure of your website or webapp 
                       </UncontrolledTooltip>
                       </Col>
                       <Col lg="2" xs="4">
                         <div className="tools-item">
-                            <img className="img-fluid" src={require("../img/icons/css.png")} alt="" id="htmltooltip" />
+                            <img className="img-fluid" src={require("../img/icons/css.png")} alt="" id="csstooltip" />
                         </div>
-                        <UncontrolledTooltip delay={0} target="htmltooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        <UncontrolledTooltip delay={0} target="csstooltip">
+                        CSS - Make your webapp/website looks great and mobile friendly
                       </UncontrolledTooltip>
                        </Col>
                        <Col lg="2" xs="4">
@@ -108,7 +108,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/sass.png")} alt="" id="sasstooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="sasstooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        SCSS - A CSS preprocessor. Add's Synthatic sugar to your CSS code
                       </UncontrolledTooltip>
                        </Col> 
                         <Col lg="2" xs="4">
@@ -116,7 +116,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/react.png")} alt="" id="reacttooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="reacttooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        REACT - Javascript library for creating interactive UI's and manage the state of web app's
                       </UncontrolledTooltip>
                       </Col>
                       <Col lg="2" xs="4">
@@ -124,7 +124,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/typescript.png")} alt="" id="typescripttooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="typescripttooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        TYPESCRIPT - A typed superset of the Javascript language
                       </UncontrolledTooltip>
                     </Col>
                       <Col lg="2" xs="4">
@@ -132,7 +132,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/materialui.png")} alt="" id="materialtooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="materialtooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        MATERIAL UI - Makes creating awesome UI's faster and easier
                       </UncontrolledTooltip>
                     </Col>
                     </Row>
@@ -144,7 +144,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/nodejs.png")} alt="" id="nodejstooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="nodejstooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        NODE JS - A Javascript runtime enviroment for creating wep applications and web API's
                       </UncontrolledTooltip>
                       </Col>
                       <Col lg="2" xs="4">
@@ -152,7 +152,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/mongodb.png")} alt="" id="mongodb" />
                         </div>
                         <UncontrolledTooltip delay={0} target="mongodb">
-                        Bootstrap 4 - Most popular front-end component library
+                        Mongo DB - Most popular NOSQL database system for building modern web applications.
                       </UncontrolledTooltip>
                        </Col>
                        <Col lg="2" xs="4">
@@ -160,7 +160,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/sql.png")} alt="" id="sqltooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="sqltooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        SQL - Structured Query Language, used for accessing and manipulating data stored in a database.
                       </UncontrolledTooltip>
                        </Col>
                        <Col lg="2" xs="4">
@@ -168,7 +168,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/typescript.png")} alt="" id="typescripttooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="typescripttooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        TYPESCRIPT - A typed superset of the Javascript language 
             </UncontrolledTooltip>
           </Col>
           <Col lg="2" xs="4">
@@ -176,7 +176,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/graphql.png")} alt="" id="graphqltooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="graphqltooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        GRAPHQL - A data query and manipulation language for working with data efficiently
                       </UncontrolledTooltip>
                        </Col>
       </Row>
@@ -188,7 +188,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/git.png")} alt="" id="gittooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="gittooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        GIT - A Version Control System that help's to keep track of changes to code
                       </UncontrolledTooltip>
                        </Col>
                        <Col lg="2" xs="4">
@@ -196,7 +196,7 @@ const Iconssection = () => {
                             <img className="img-fluid" src={require("../img/icons/github.png")} alt="" id="githubtooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="githubtooltip">
-                        Bootstrap 4 - Most popular front-end component library
+                        GITHUB - A code hosting platform for version control and collaboration
                       </UncontrolledTooltip>
                        </Col>
                 </Row>  
