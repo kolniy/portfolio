@@ -31,7 +31,7 @@
 }
 
 .hero-about-section {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .hero-section__name {
@@ -55,12 +55,33 @@
   margin: 0 auto;
 }
 
+.hero-section__learn-more {
+  margin-top: 10px;
+}
+
+.hero-section__learn-more p {
+  color: #f4f5f7;
+}
+
+.hero-section__about p {
+  font-size: 16px;
+}
+
 .hero-about-section .btn-wrapper {
   margin-top: 2rem;
 }
 
 .theme-white {
   color: var(--site-grey-background) !important;
+}
+
+.hero-section__learn-more {
+  display: none;
+  margin-top: 1.5rem;
+}
+
+.modal-about-me {
+  font-size: 14px !important;
 }
 
 .service {
@@ -192,6 +213,7 @@
 
 .tools-item:hover {
   transform: scale(1.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .tools-item img {
@@ -208,6 +230,103 @@
   background-color: var(--site-grey-background);
 }
 
+.port-folio .card {
+  /* width: 21rem; */
+  box-shadow: none !important;
+  border: none !important;
+  cursor: pointer;
+  transition: box-shadow 0.8s;
+  border-radius: 3px !important;
+}
+
+.port-folio .card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25) !important;
+}
+
+.port-folio .card img {
+  max-height: 250px;
+}
+
+.port-folio .card-title {
+  color: var(--site-theme-color);
+  transition: transform 0.5s;
+  padding: 0.2rem;
+}
+
+.port-folio .card-title:hover {
+  transform: translateY(-5px);
+}
+
+.port-folio .card-text {
+  color: #333;
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+.portfolio-contents {
+  margin-top: 5rem;
+}
+
+.portfolio-item {
+  max-width: 100%;
+  margin: 15px 2px;
+}
+
+.contact {
+  padding: 4rem 1rem;
+}
+
+.contact .display-paragraph {
+  margin: 1.8rem 0.8rem;
+}
+
+.contact-section-social {
+  margin-left: 5rem;
+}
+
+.contact-section-social p:not(:last-child) {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.social-icons-section a {
+  font-size: 4rem;
+  margin: 5px;
+}
+
+.social-icons-section .silent {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.social-icons-section .social-icon-linkedin {
+  color: #172b4d;
+}
+
+.social-icons-section .social-icon-twitter {
+  color: #1da1f2;
+}
+
+.social-icons-section .social-icon-github {
+  color: #222222;
+}
+
+@media only screen and (max-width: 1330px) {
+  .hero-about-section {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .hero-section__about p {
+    display: none;
+  }
+  .hero-section__learn-more {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 795px) {
   .hero-section__details {
     padding: 2rem 0;
@@ -219,10 +338,6 @@
 
   .hero-section__details h1 {
     font-size: 24px;
-  }
-
-  .hero-section__about p {
-    font-size: 15px;
   }
 
   .tools-item img {

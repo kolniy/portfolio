@@ -69,7 +69,7 @@ const Iconssection = () => {
                 role="tab"
               >
                 <i className="ni ni-calendar-grid-58 mr-2" />
-                Version Control
+                Version Control & Deployment
               </NavLink>
             </NavItem>
           </Nav>
@@ -78,7 +78,7 @@ const Iconssection = () => {
           <CardBody>
             <TabContent activeTab={"tabs" + tabs}>
               <TabPane tabId="tabs1">
-                    <Row className="justify-content-center">
+                    <Row>
                      <Col lg="2" xs="4">
                         <div className="tools-item" id="html">
                             <img className="img-fluid" src={require("../img/icons/html.png")} alt="" id="htmltooltip" />
@@ -113,7 +113,7 @@ const Iconssection = () => {
                        </Col> 
                         <Col lg="2" xs="4">
                         <div className="tools-item">
-                            <img className="img-fluid" src={require("../img/icons/react.png")} alt="" id="reacttooltip" />
+                            <img className="img-fluid" src={require("../img/icons/react.svg")} alt="" id="reacttooltip" />
                         </div>
                         <UncontrolledTooltip delay={0} target="reacttooltip">
                         REACT - Javascript library for creating interactive UI's and manage the state of web app's
@@ -138,7 +138,7 @@ const Iconssection = () => {
                     </Row>
               </TabPane>
               <TabPane tabId="tabs2">
-              <Row className="justify-content-center">
+              <Row>
                      <Col lg="2" xs="4">
                         <div className="tools-item" id="html">
                             <img className="img-fluid" src={require("../img/icons/nodejs.png")} alt="" id="nodejstooltip" />
@@ -149,7 +149,7 @@ const Iconssection = () => {
                       </Col>
                       <Col lg="2" xs="4">
                         <div className="tools-item">
-                            <img className="img-fluid" src={require("../img/icons/mongodb.png")} alt="" id="mongodb" />
+                            <img className="img-fluid" src={require("../img/icons/MONGO.png")} alt="" id="mongodb" />
                         </div>
                         <UncontrolledTooltip delay={0} target="mongodb">
                         Mongo DB - Most popular NOSQL database system for building modern web applications.
@@ -182,7 +182,7 @@ const Iconssection = () => {
       </Row>
     </TabPane>
         <TabPane tabId="tabs3">
-        <Row className="justify-content-center">
+        <Row>
         <Col lg="2" xs="4">
                    <div className="tools-item">
                             <img className="img-fluid" src={require("../img/icons/git.png")} alt="" id="gittooltip" />
@@ -197,6 +197,24 @@ const Iconssection = () => {
                         </div>
                         <UncontrolledTooltip delay={0} target="githubtooltip">
                         GITHUB - A code hosting platform for version control and collaboration
+                      </UncontrolledTooltip>
+                       </Col>
+
+                       <Col lg="2" xs="4">
+                   <div className="tools-item">
+                            <img className="img-fluid" src={require("../img/icons/heroku.png")} alt="" id="herokutooltip" />
+                        </div>
+                        <UncontrolledTooltip delay={0} target="herokutooltip">
+                        HEROKU - Heroku is a cloud platform as a service (PaaS) that lets companies build, deliver, monitor, and scale web apps.
+                      </UncontrolledTooltip>
+                       </Col>
+
+                       <Col lg="2" xs="4">
+                   <div className="tools-item">
+                            <img className="img-fluid" src={require("../img/icons/netlify.png")} alt="" id="netlifytooltip" />
+                        </div>
+                        <UncontrolledTooltip delay={0} target="netlifytooltip">
+                        NETLIFY -  is an all-in-one platform for automating modern web projects.
                       </UncontrolledTooltip>
                        </Col>
                 </Row>  
