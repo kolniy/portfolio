@@ -276,12 +276,16 @@
   padding: 4rem 1rem;
 }
 
+.contact .reach-me-container {
+  margin-top: 3rem;
+}
+
 .contact .display-paragraph {
   margin: 1.8rem 0.8rem;
 }
 
-.contact-section-social {
-  margin-left: 5rem;
+.contact-section-form {
+  margin-right: 5rem;
 }
 
 .contact-section-social p:not(:last-child) {
@@ -290,9 +294,34 @@
   font-size: 17px;
 }
 
+.contact-section-form p {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.contact-section-form .card {
+  padding: 2rem 0.2rem;
+  box-shadow: none !important;
+  transition: all 0.8s;
+}
+
+.contact-section-form .card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25) !important;
+}
+
+.contact-section-form button {
+  margin-top: 2rem;
+}
+
 .social-icons-section a {
   font-size: 4rem;
   margin: 5px;
+}
+
+.no-display {
+  display: none;
 }
 
 .social-icons-section .silent {
@@ -310,6 +339,16 @@
 
 .social-icons-section .social-icon-github {
   color: #222222;
+}
+
+.footer {
+  background-color: var(--site-theme-color) !important;
+  /* padding: 15px 3px !important; */
+}
+
+.footer p {
+  color: var(--site-grey-background);
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 1330px) {

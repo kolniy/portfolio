@@ -9,6 +9,7 @@ import {
   import projectsData from "../data/projectsData"
   import PortfolioItem from "../components/portfolio/PortfolioItem"
   import AboutModal from  "../components/AboutModal"
+  import SendMailForm from "./SendMailForm"
 
   const imgSrc = require('../img/hero1.jpg')
 
@@ -149,51 +150,48 @@ const HomePage = props => {
         </div>
       </section>
 
-      <section className="contact" id="contact">
-        <Container>
+  <section className="contact" id="contact">
+      <Container>
       <div className="service-header">
         <h1 className="display-3 text-center">Contact Me</h1>
       </div>
       <div className="display-paragraph">
         <p className="text-center">
-        Do you have a project you're currently working on, need an additional hand to collaborate with your team, or u have an idea you would like to turn into a great looking product? <br/> Kindly reach out to me in any of the following ways.
+        Do you have a project you're currently working on, need an additional hand to collaborate with your team, or u have an idea you would like to turn into a great looking product that your clients will love? <br/> Kindly reach out to me in any of the following ways.
         </p>
       </div>
+      <Row className="reach-me-container">
       <Col md="6" sx="6">
         <div className="contact-section-social">
         <p className="h6">Find Me On</p>
         <div className="social-icons-section">
-            <a href="https://www.linkedin.com/in/kolaniyi/" rel="noopener noreferrer" target="_blank" className="social-icon"> <i class="fa fa-linkedin-square social-icon-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/kolaniyi/" rel="noopener noreferrer" target="_blank" className="social-icon"> <i className="fa fa-linkedin-square social-icon-linkedin" aria-hidden="true"></i><p className="no-display">some hidden text</p></a>
 
-            <a href="https://twitter.com/kolaniyi3" rel="noopener noreferrer" target="_blank" className="social-icon"><i class="fa fa-twitter social-icon-twitter" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/kolaniyi3" rel="noopener noreferrer" target="_blank" className="social-icon"><i className="fa fa-twitter social-icon-twitter" aria-hidden="true"></i><p className="no-display">some hidden text</p></a>
 
             <a href="https://github.com/kolniy" rel="noopener noreferrer" target="_blank" className="social-icon">
-            <i class="fa fa-github social-icon-github" aria-hidden="true"></i>
+            <i className="fa fa-github social-icon-github" aria-hidden="true"></i>
+            <p className="no-display">some hidden text</p>
             </a>
             <p className="h6">Email</p>
-            <p className="silent"><i class="fa fa-envelope" aria-hidden="true"></i> info@kolaniyi.com</p>
+            <p className="silent"><i className="fa fa-envelope" aria-hidden="true"></i> info@kolaniyi.com</p>
         </div>
         </div>
       </Col>
-      <Col md="6" sx="6">
-      <div className="contact-section-form">
-            
-      </div>
+      <Col md="6">
+        <div className="contact-section-form">
+            <SendMailForm />
+         </div>
       </Col>
+      </Row>
         </Container>
       </section>
-      </>
+
+   <section className="footer text-center">
+    <p> &copy; {new Date().getFullYear()} kolaniyi.com</p>
+  </section>
+     </>
     )
 }
 
 export default HomePage
-
-
-
-// for the services section API & Database Design.
-// Using both SQL based Relational Database management systems and NOSQL based database, along side Database agnsotic tools to design, develop and build both data driven web applications and RESTFUL API's for web app's.
-
-// WEBSITE/WEB-APP DESIGN 
-// Huge Preference on great looking website's and web applications that are always mobile responsive.
-
-// PROJECT MANAGEMENT
