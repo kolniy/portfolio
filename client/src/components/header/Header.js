@@ -5,12 +5,13 @@ import {
     NavbarBrand,
     Navbar,
     NavItem,
-    NavLink,
     Nav,
     Container,
     Row,
     Col
   } from "reactstrap";
+
+import { Link as ScrollLink } from "react-scroll"
 
 const Header = () => {
     return (
@@ -20,7 +21,6 @@ const Header = () => {
           expand="lg"
           fixed='top'
         >
-          {/* bg-default is a navbar class for default header bg-color */}
        <Container>
             <NavbarBrand tag={Link} to="/">
                 kolaniyi
@@ -61,24 +61,29 @@ const Header = () => {
               </div>
               <Nav className="ml-lg-auto" navbar>
               <NavItem>
-                  <NavLink href="#service">
-                    Services <span className="sr-only">(current)</span>
-                  </NavLink>
+                  <ScrollLink activeClass="active" to="about" spy={true} smooth={true} duration={1000} className="nav-link">
+                  About
+        </ScrollLink>
+                </NavItem>
+              <NavItem>
+                  <ScrollLink activeClass="active" to="service" spy={true} smooth={true} duration={1000} className="nav-link">
+                  Services
+        </ScrollLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#tools">
-                   Tools
-                  </NavLink>
+                  <ScrollLink activeClass="active" to="tools" spy={true} smooth={true} duration={1000} className="nav-link">
+          Tools
+        </ScrollLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#portFolio">
-                    Port Folio
-                  </NavLink>
+                         <ScrollLink activeClass="active" to="portFolio" spy={true} smooth={true} duration={1000} className="nav-link">
+          Port Folio
+        </ScrollLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#contact">
-                    Contact Me
-                  </NavLink>
+                  <ScrollLink activeClass="active" to="contact" spy={true} smooth={true} duration={1000} className="nav-link">
+          Contact Me
+        </ScrollLink>
                 </NavItem>
               </Nav>
             </UncontrolledCollapse>

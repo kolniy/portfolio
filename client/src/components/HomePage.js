@@ -16,7 +16,7 @@ import {
 const HomePage = props => {
     return (
       <>
-    <section className="hero-section">
+    <section className="hero-section" id="about">
       <section className="hero-about-section">
     <Row className="justify-content-center">
       <Col>
@@ -117,7 +117,7 @@ const HomePage = props => {
                 <img src={require('../img/service-icon.png')} alt="app design service" />
               </div>
               <h4 className="service-main__info-heading">Project Managt.</h4>
-              <p className="service-main__para lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aspernatur deserunt natus, facere libero provident temporibus eum amet voluptate ipsum!</p>
+              <p className="service-main__para lead">Using Modern Software development Life Cycle(SDLC) methods, such as Agile and DevOps to keep track of the different stages of product development. It facilitate's the communication of feedback during the development the product.</p>
             </div>
             <div className="shadow-one"></div>
             <div className="shadow-two"></div>

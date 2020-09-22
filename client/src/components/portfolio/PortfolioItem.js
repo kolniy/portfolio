@@ -10,7 +10,7 @@ import {
      } from "reactstrap"
      
 
-const PortfolioItem = ( { project: { id, imgSrc, title, text, github } }) => {
+const PortfolioItem = ( { project: { id, imgSrc, title, text, github, landingPage } }) => {
     return (
       <Col key={id} md="4">
       <div className="portfolio-item">
@@ -21,7 +21,10 @@ const PortfolioItem = ( { project: { id, imgSrc, title, text, github } }) => {
     top
   />
   <CardBody>
-    <CardTitle>{title}</CardTitle>
+    <CardTitle>{ landingPage !== null ? <><a href={landingPage} rel="noopener noreferrer" target="_blank">
+            <p>{title}</p>
+            </a></> : <>{title}</> }
+    </CardTitle>
     <CardText>
       {text}.
     </CardText>
