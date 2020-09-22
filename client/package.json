@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "0.20.0",
     "classnames": "2.2.6",
+    "node-sass": "4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "5.2.0",
@@ -20,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile-sass": "node-sass -o ./src/styles/assets/css/argon-design-system-react.css src/styles/assets/scss/argon-design-system/argon-design-system-react.scss"
   },
   "eslintConfig": {
     "extends": "react-app"
