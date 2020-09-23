@@ -43,7 +43,7 @@ const SendMailForm = () => {
 }
 
         return (
-         <Card className="shadow content-align-center">
+         <Card className="shadow">
             <CardBody>
                 {emailStatus === 'SUCCESS' && <><Alert message="Mail Sent Successfully!" alertType="success" /></>}
                 {emailStatus === 'ERROR' && <><Alert message="Failed To send Mail. Try Later!" alertType="danger" /></>}

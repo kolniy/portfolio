@@ -117,7 +117,7 @@ const HomePage = props => {
                 <img src={require('../img/service-icon.png')} alt="app design service" />
               </div>
               <h4 className="service-main__info-heading">Project Managt.</h4>
-              <p className="service-main__para lead">Using Modern Software development Life Cycle(SDLC) methods, such as Agile and DevOps to keep track of the different stages of product development. It facilitate's the communication of feedback during the development the product.</p>
+              <p className="service-main__para lead">Using Modern Software development Life Cycle(SDLC) methods, such as Agile and DevOps to keep track of the different stages of product development. It facilitate's the communication of feedback during project development.</p>
             </div>
             <div className="shadow-one"></div>
             <div className="shadow-two"></div>
@@ -175,6 +175,7 @@ const HomePage = props => {
             </a>
             <p className="h6">Email</p>
             <p className="silent"><i className="fa fa-envelope" aria-hidden="true"></i> info@kolaniyi.com</p>
+            <img src={require('../img/kola.jpg')} alt="kolaniyi" className="img-fluid rounded-circle shadow" style={{width: "150px"} } />
         </div>
         </div>
       </Col>
